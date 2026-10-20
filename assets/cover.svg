@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">LAOHU — Less friction. More flow.</title>
+  <desc id="description">A pale teal workshop poster with bold typography, an abstract flowing path, and a cursor. 把日常麻烦，做成顺手工具。</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1280" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F5F5"/>
+      <stop offset="1" stop-color="#E9F1EF"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="818" y1="134" x2="1147" y2="369" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8EB3A9"/>
+      <stop offset="1" stop-color="#487A72"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#CCDCD7" stroke-opacity=".45"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1280" height="480" rx="24"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="480" fill="url(#paper)"/>
+    <rect x="720" width="560" height="480" fill="url(#grid)"/>
+    <circle cx="1100" cy="188" r="245" fill="#C4DAD6" fill-opacity=".28"/>
+    <circle cx="1100" cy="188" r="181" stroke="#8EB3A9" stroke-opacity=".35"/>
+    <circle cx="1100" cy="188" r="213" stroke="#8EB3A9" stroke-opacity=".25"/>
+    <path d="M0 409H1280" stroke="#CCDCD7"/>
+
+    <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">
+      <rect x="48" y="38" width="36" height="36" rx="10" fill="#365F58"/>
+      <path d="M58 48V64H74" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square"/>
+      <text x="98" y="62" fill="#294A44" font-size="17" font-weight="700" letter-spacing="3">LAOHU</text>
+      <text x="1228" y="60" text-anchor="end" fill="#60736F" font-size="12" letter-spacing="2">A PERSONAL WORKSHOP / EST. ON GITHUB</text>
+    </g>
+
+    <g font-family="'Arial Black', 'Helvetica Neue', Helvetica, sans-serif" font-weight="900" font-size="100" letter-spacing="-6">
+      <text x="43" y="198" fill="#294A44">Less friction.</text>
+      <text x="43" y="302" fill="#487A72">More flow.</text>
+    </g>
+    <text x="49" y="354" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#60736F" letter-spacing="2">SMALL TOOLS. EVERYDAY SUPERPOWERS.</text>
+
+    <g transform="rotate(-8 1010 243)">
+      <rect x="817" y="110" width="330" height="250" rx="20" fill="#C9DED7"/>
+      <rect x="803" y="95" width="330" height="250" rx="20" fill="#F5F5F5" stroke="#8EB3A9"/>
+      <path d="M803 138H1133" stroke="#CCDCD7"/>
+      <circle cx="824" cy="116" r="4" fill="#8EB3A9"/>
+      <circle cx="840" cy="116" r="4" fill="#C4DAD6"/>
+      <circle cx="856" cy="116" r="4" fill="#DCE7E1"/>
+      <text x="1114" y="120" text-anchor="end" font-family="'SFMono-Regular', Consolas, monospace" font-size="10" letter-spacing="1.5" fill="#60736F">FRICTION → FLOW</text>
+      <path d="M834 271C870 271 842 185 881 185S882 302 922 302S930 184 972 184S985 268 1023 268S1058 210 1101 210" stroke="#DCE7E1" stroke-width="22" stroke-linecap="round"/>
+      <path d="M834 271C870 271 842 185 881 185S882 302 922 302S930 184 972 184S985 268 1023 268S1058 210 1101 210" stroke="url(#flow)" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="1101" cy="210" r="10" fill="#365F58"/>
+      <circle cx="1101" cy="210" r="4" fill="#F5F5F5"/>
+    </g>
+
+    <g transform="translate(1086 292) rotate(-12)">
+      <path d="M0 0L0 70L19 52L33 82L49 74L35 46L61 43L0 0Z" fill="#365F58" stroke="#F5F5F5" stroke-width="5" stroke-linejoin="round"/>
+    </g>
+    <g transform="rotate(7 1177 120)" stroke="#487A72" stroke-width="3" stroke-linecap="round">
+      <path d="M1177 100V140M1157 120H1197M1163 106L1191 134M1163 134L1191 106"/>
+    </g>
+
+    <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.5" fill="#60736F">
+      <text x="49" y="449">WEB / AI / AUTOMATION</text>
+      <circle cx="986" cy="445" r="4" fill="#487A72"/>
+      <text x="1000" y="449">LESS BUSY. MORE BUILDING.</text>
+    </g>
+  </g>
+</svg>
